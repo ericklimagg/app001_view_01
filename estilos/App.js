@@ -74,7 +74,6 @@ function App() {
 
       </ScrollView>
 
-      {/* RODAPÉ ESTILO APP NATIVO */}
       <View style={styles.footer}>
         <View style={styles.tabItem}>
           <Image source={iconTab1} style={styles.tabIcon} />
