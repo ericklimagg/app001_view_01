@@ -1,0 +1,40 @@
+import React, { useState } from "react";
+import { View, Text, TouchableHighlight } from 'react-native';
+import { estilos } from "../styleSheet/estilo";
+
+function Corpo() {
+    const [enunciado, setEnunciado] = useState("Clique no Botão para trocar a cor do fundo da tela!");
+    const [descricao, setDescricao] = useState("");
+    const [corFundo, setCorFundo] = useState("white");
+
+    function alteraState() {
+        if (corFundo === 'white') {
+            setEnunciado("A cor do fundo do Componente Conteudo foi trocada para cinza. Clique novamente para voltar ao estado inicial.");
+            setDescricao("Texto inserido em tempo real");
+            setCorFundo('gray');
+        } else {
+            setEnunciado("Clique no Botão para trocar a cor do fundo da tela!");
+            setDescricao("");
+            setCorFundo('white');
+        }
+    }
+
+    return (
+        <View style={[estilos.conteudo, { backgroundColor: corFundo }]}>
+            <Text style={estilos.titulo}>UseState</Text>
+
+            <Text style={{ textAlign: 'center', paddingHorizontal: 10 }}>{enunciado}</Text>
+
+            <TouchableHighlight
+                onPress={alteraState}
+                style={{ backgroundColor: 'darkblue', padding: 20, borderRadius: 25 }}
+            >
+                <Text style={{ color: 'white', fontWeight: 'bold' }}>CLIQUE AQUI</Text>
+            </TouchableHighlight>
+
+            <Text>{descricao}</Text>
+        </View>
+    );
+}
+
+export default Corpo;
