@@ -5,7 +5,7 @@ import Corpo from "./src/Componentes/Corpo";
 import Rodape from "./src/Componentes/Rodape";
 import { estilos } from "./src/styleSheet/estilo";
 
-export default function Index() {
+export default function App() {
     return (
         <View style={estilos.fundo}>
             <Cabecalho />
