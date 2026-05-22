@@ -1,0 +1,72 @@
+[
+  {
+    "id": "1",
+    "nome": "Ferrari F40",
+    "marca": "Ferrari",
+    "potencia": "478 cv",
+    "foto": "https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+  },
+  {
+    "id": "2",
+    "nome": "Mustang GT",
+    "marca": "Ford",
+    "potencia": "450 cv",
+    "foto": "https://images.unsplash.com/photo-1494976388531-d1058494cdd8"
+  },
+  {
+    "id": "3",
+    "nome": "Porsche 911",
+    "marca": "Porsche",
+    "potencia": "379 cv",
+    "foto": "https://images.unsplash.com/photo-1502161254066-6c74afbf07aa"
+  },
+  {
+    "id": "4",
+    "nome": "Lamborghini Aventador",
+    "marca": "Lamborghini",
+    "potencia": "770 cv",
+    "foto": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c"
+  },
+  {
+    "id": "5",
+    "nome": "Bugatti Chiron",
+    "marca": "Bugatti",
+    "potencia": "1500 cv",
+    "foto": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b"
+  },
+  {
+    "id": "6",
+    "nome": "McLaren P1",
+    "marca": "McLaren",
+    "potencia": "903 cv",
+    "foto": "https://images.unsplash.com/photo-1489824904134-891ab64532f1"
+  },
+  {
+    "id": "7",
+    "nome": "Chevrolet Camaro",
+    "marca": "Chevrolet",
+    "potencia": "455 cv",
+    "foto": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7"
+  },
+  {
+    "id": "8",
+    "nome": "Nissan GT-R",
+    "marca": "Nissan",
+    "potencia": "565 cv",
+    "foto": "https://images.unsplash.com/photo-1502877338535-766e1452684a"
+  },
+  {
+    "id": "9",
+    "nome": "Toyota Supra",
+    "marca": "Toyota",
+    "potencia": "382 cv",
+    "foto": "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d"
+  },
+  {
+    "id": "10",
+    "nome": "Audi R8",
+    "marca": "Audi",
+    "potencia": "602 cv",
+    "foto": "https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+  }
+]
