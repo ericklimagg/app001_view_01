@@ -4,7 +4,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 
 import Home from './src/Home';
 import Titulos from './src/Titulos';
-import Idolos from './src/Idolos.tsxjs';
+import Idolos from './src/Idolos.js';
 
 import { styles } from './styles';
 
